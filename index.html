@@ -5,7 +5,7 @@
 
   <link rel="stylesheet" type="text/css" href="/Style/template_normal.min.css"/>
 
-  <title>Tooman</title>
+  <title>RoofBar</title>
  
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -27,14 +27,14 @@
 
   <div class="loading-welcome active welcome-screen" style="background-color: #000000">
     <div class="helper"></div>
-    <img id="welcomeImg" imageonload ng-src="{{view.welcome_screen || 'https://s3.eu-central-1.amazonaws.com/qrcgappcdn/gallery-solution/welcome.png'}}"
+    <img id="welcomeImg" imageonload ng-src="/Image/main_page_logo.png"
          ng-style="{
             'max-width': view.code.welcome_extra.zoom *2 || view.welcome_extra.zoom *2 + 'px',
             'max-height': view.code.welcome_extra.zoom *2 || view.welcome_extra.zoom *2 + 'px',
             'animation-iteration-count' :  view.showPreview == 'infinite' ? 'infinite' : '',
             'animation-direction' :  view.showPreview == 'infinite' ? 'alternate' : ''
             }">
-</div>
+    </div>
     
 
 <div class="top">
